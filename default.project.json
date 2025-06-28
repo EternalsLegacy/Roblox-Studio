@@ -23,6 +23,19 @@
       }
     },
 
+    "StarterGui": {
+      "$className": "StarterGui",
+      "PixelShader": {
+        "$className": "ScreenGui",
+        "ViewPortFrame": {
+          "$className": "ViewportFrame",
+          "Render": {
+            "$path": "src/StarterGui/PixelShader/ViewportFrame/Render.client.lua"
+          }
+        }
+      }
+    },
+
     "Workspace": {
       "$properties": {
         "FilteringEnabled": true
